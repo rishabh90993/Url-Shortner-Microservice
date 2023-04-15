@@ -11,5 +11,7 @@ import java.util.Date;
 @Getter
 public class UrlDto {
     String shortUrl;
+
+    String originalUrl;
     Date createdAt;
 }

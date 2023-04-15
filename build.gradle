@@ -25,7 +25,6 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'com.google.guava:guava:19.0'
@@ -33,6 +32,9 @@ dependencies {
 	// for json Serialization
 	implementation 'com.fasterxml.jackson.core:jackson-core:2.15.0-rc2'
 	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.14.2'
+
+	// for Mysql database
+	implementation 'mysql:mysql-connector-java:8.0.26'
 
 }
 
